@@ -37,7 +37,7 @@ The main research questions we will seek to answer are the following:
 ## 📈 Notebook Structure
 
 1. **Introduction** – Project objectives, research questions.
-2. **Data Loading and Inspection** – Load CSV file, handle missing values, data types, clean column names.
+2. **Data Loading and Inspection** – Load CSV file, handle missing values.
 3. **Prepare Data for Analysis** – Ensure appropriate data types, adjust column names for clarity.
 4. **Exploratory Data Analysis** – GDP and Life Expectancy distributions, summary statistics by country, trend analysis, explore relationship between GDP and Life Expectancy.
 5. **Conclusion and Main Findings** – Key findings of the study and conclusion.
@@ -77,8 +77,10 @@ The project yielded several significant insights:
 
 ## 🪜 Next Steps
 
-* **Economic Data:** GDP in current U.S. dollars may be not the best metric to assess economic prosperity. It would be insightful to try the following approaches for the GDP variable.  <br>
+* **Economic Data:** GDP in current U.S. dollars may be not the best metric to assess economic prosperity. It would be insightful to try the following approaches for the GDP variable.
+
 *GDP per Capita (PPP):* Use Purchasing Power Parity (PPP) in constant international dollars. This adjusts for the cost of living and inflation, allowing you to see if life expectancy gains are truly tied to individual wealth.  <br>
+
 *Logarithmic Transformation:* Since GDP is highly skewed, try using $log(\text{GDP})$.
 
 * **Expansion of the Dataset:** To understand if the results hold true with a more representative sample of countries, pull data from the World Bank and WHO for more countries, and group countries by income level (Low, Middle, High). This would allow to test the hypothesis of a positive non-linear relationship between economic prosperity and life expectancy.  
