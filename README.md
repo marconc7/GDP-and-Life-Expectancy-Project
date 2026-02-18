@@ -1,7 +1,7 @@
 # GDP and Life Expectancy Data Analysis Project
 
 ## 📌 Project Overview
-This project explores the relationship between the Gross Domestic Product (GDP) and Life Expectancy at Birth in Years across six different countries: Chile, China, Mexico, the United States, and Zimbabwe. The analysis spans a 15-year period from 2000 to 2015.  
+This project explores the relationship between the Gross Domestic Product (GDP) and Life Expectancy at Birth across six different countries: Chile, China, Mexico, the United States, and Zimbabwe. The analysis spans a 15-year period from 2000 to 2015.  
 
 The key objective of this study is to shed light on the relationship between economic prosperity, as measured by GDP, and life expectancy.
 
@@ -49,24 +49,28 @@ The project yielded several significant insights:
 
 * Economic Disparities: Large divergences in GDP were noted, with the United States and China leading the group, while Chile and Zimbabwe represented significantly smaller economies.
 
+* Average Life Expectancy: Germany has the highest average life expectancy (79.66 years), followed closely by Chile and the USA. Zimbabwe, despite improvements in recent years, had a significantly lower average life expectancy (50.09 years).
+
 * Distribution of GDP and Life Expectancy: The distribution of GDP was highly right-skewed, with most data points concentrated at the lower end of the distribution and a long tail extending to very high GDP values (primarily from the USA and China). On the contrary, the distribution of life expectancy is heavily left-skewed, with the majority of the life expectancy data points concentrated in the range of 70 to 80 years, with a significant peak around the late 70s. 
 
-> **Conclusion:** In conclusion, while economic prosperity, as measured by GDP, generally correlates positively with improved life expectancy, the impact appear to be more significant at lower levels of development. Countries with robust economies and healthcare systems tend to maintain high and gradually increasing life expectancies. The analysis highlights both the global progress in health and economic development, as well as persistent disparities.
+> **Conclusion:** While economic prosperity, as measured by GDP, generally correlates positively with improved life expectancy, the impact appear to be more significant at lower levels of development. Countries with robust economies and healthcare systems tend to maintain high and gradually increasing life expectancies. The analysis highlights both the global progress in health and economic development, as well as persistent disparities.
 
 ## 🚀 How to Run the Project
 1. Clone the repository:
    ```bash
    git clone [https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git)
 
-2. Ensure you have the insurance.csv file in the same directory as the notebook.
+2. Ensure you have the all_data.csv file in the same directory as the notebook.
 
 3. Open the Jupyter Notebook:
    ```bash
-   jupyter notebook US_Medical_Insurance_Costs.ipynb
+   jupyter notebook GDP-and-Life-Expectancy-Project.ipynb
 
 ## 🪜 Future Work
 
-* **Bias Analysis:** Investigate if certain regions are overrepresented or if age groups are skewed.
+* **Economic Data:** GDP in current U.S. dollars may be not the best metric to assess economic prosperity. It would be insightful to try the following approaches for the GDP variable.
+1. *GDP per Capita (PPP):* Use Purchasing Power Parity (PPP) in constant international dollars. This adjusts for the cost of living and inflation, allowing you to see if life expectancy gains are truly tied to individual wealth.
+2. *Logarithmic Transformation:* Since GDP is highly skewed, try using $log(\text{GDP})$.
 
 * **Predictive Modeling:** Implement a multiple linear regression model to predict insurance costs based on BMI, age, sex, smoking status, geographical region and number of children.
 
