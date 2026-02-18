@@ -1,7 +1,8 @@
 # GDP and Life Expectancy Data Analysis Project
 
 ## 📌 Project Overview
-This project explores the relationship between the Gross Domestic Product (GDP) and Life Expectancy at Birth across six different countries: Chile, China, Mexico, the United States, and Zimbabwe. The analysis spans a 15-year period from 2000 to 2015.  
+**Economic Prosperity vs. Longevity: A Longitudinal Study (2000–2015)**
+This project explores the relationship between the Gross Domestic Product (GDP) and Life Expectancy at Birth across six geographically and economically diverse nations: Chile, China, Mexico, the United States, and Zimbabwe. The analysis spans a 15-year period from 2000 to 2015.  
 
 The key objective of this study is to shed light on the relationship between economic prosperity, as measured by GDP, and life expectancy.
 
@@ -24,6 +25,7 @@ The main research questions we will seek to answer are the following:
 
 
 ## 🛠️ Tech Stack & Libraries
+
 * Python 3
 * Jupyter Notebook – Analysis environment
 * Pandas – Data processing
@@ -31,6 +33,7 @@ The main research questions we will seek to answer are the following:
 
 
 ## 📈 Notebook Structure
+
 1. **Introduction** – Project objectives, research questions.
 2. **Data Loading and Inspection** – Load CSV file, handle missing values, data types, clean column names.
 3. **Prepare Data for Analysis** – Ensure appropriate data types, adjust column names for clarity.
@@ -39,6 +42,7 @@ The main research questions we will seek to answer are the following:
 
 
 ## 📊 Key Findings & Insights
+
 The project yielded several significant insights:
 
 * Positive Correlation: There is a general positive correlation between GDP and life expectancy. As GDP increases, life expectancy tends to rise.
@@ -55,7 +59,9 @@ The project yielded several significant insights:
 
 > **Conclusion:** While economic prosperity, as measured by GDP, generally correlates positively with improved life expectancy, the impact appear to be more significant at lower levels of development. Countries with robust economies and healthcare systems tend to maintain high and gradually increasing life expectancies. The analysis highlights both the global progress in health and economic development, as well as persistent disparities.
 
+
 ## 🚀 How to Run the Project
+
 1. Clone the repository:
    ```bash
    git clone [https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git)
@@ -66,13 +72,13 @@ The project yielded several significant insights:
    ```bash
    jupyter notebook GDP-and-Life-Expectancy-Project.ipynb
 
-## 🪜 Future Work
+
+## 🪜 Next Steps
 
 * **Economic Data:** GDP in current U.S. dollars may be not the best metric to assess economic prosperity. It would be insightful to try the following approaches for the GDP variable.
-1. *GDP per Capita (PPP):* Use Purchasing Power Parity (PPP) in constant international dollars. This adjusts for the cost of living and inflation, allowing you to see if life expectancy gains are truly tied to individual wealth.
-2. *Logarithmic Transformation:* Since GDP is highly skewed, try using $log(\text{GDP})$.
+*GDP per Capita (PPP):* Use Purchasing Power Parity (PPP) in constant international dollars. This adjusts for the cost of living and inflation, allowing you to see if life expectancy gains are truly tied to individual wealth.
+*Logarithmic Transformation:* Since GDP is highly skewed, try using $log(\text{GDP})$.
 
-* **Predictive Modeling:** Implement a multiple linear regression model to predict insurance costs based on BMI, age, sex, smoking status, geographical region and number of children.
+* **Expansion of the Dataset:** To understand if the results hold true with a more representative sample of countries, pull data from the World Bank and WHO for more countries, and group countries by income level (Low, Middle, High). This would allow to test the hypothesis of a positive non-linear relationship between economic prosperity and life expectancy.  
 
-* **Dictionary Mapping:** Refactor the code to store patient data in a nested dictionary for more efficient querying.
-
+* **Correlation Coefficients:** Calculate the Pearson or Spearman rank correlation for each country individually. Does the strength of the correlation differ between a developing economy like China and a mature one like Germany?
