@@ -1,7 +1,7 @@
 # GDP and Life Expectancy Data Analysis Project
 
 ## 📌 Project Overview
-**Economic Prosperity vs. Longevity: A Longitudinal Study (2000–2015)**
+**Economic Prosperity vs. Longevity: A Longitudinal Study (2000–2015)**  <br>
 This project explores the relationship between the Gross Domestic Product (GDP) and Life Expectancy at Birth across six geographically and economically diverse nations: Chile, China, Mexico, the United States, and Zimbabwe. The analysis spans a 15-year period from 2000 to 2015.  
 
 The key objective of this study is to shed light on the relationship between economic prosperity, as measured by GDP, and life expectancy.
@@ -75,8 +75,8 @@ The project yielded several significant insights:
 
 ## 🪜 Next Steps
 
-* **Economic Data:** GDP in current U.S. dollars may be not the best metric to assess economic prosperity. It would be insightful to try the following approaches for the GDP variable.
-*GDP per Capita (PPP):* Use Purchasing Power Parity (PPP) in constant international dollars. This adjusts for the cost of living and inflation, allowing you to see if life expectancy gains are truly tied to individual wealth.
+* **Economic Data:** GDP in current U.S. dollars may be not the best metric to assess economic prosperity. It would be insightful to try the following approaches for the GDP variable.  <br>
+*GDP per Capita (PPP):* Use Purchasing Power Parity (PPP) in constant international dollars. This adjusts for the cost of living and inflation, allowing you to see if life expectancy gains are truly tied to individual wealth.  <br>
 *Logarithmic Transformation:* Since GDP is highly skewed, try using $log(\text{GDP})$.
 
 * **Expansion of the Dataset:** To understand if the results hold true with a more representative sample of countries, pull data from the World Bank and WHO for more countries, and group countries by income level (Low, Middle, High). This would allow to test the hypothesis of a positive non-linear relationship between economic prosperity and life expectancy.  
