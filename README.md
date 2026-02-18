@@ -18,15 +18,23 @@ The main research questions we will seek to answer are the following:
 ## 🗂️ Data Sources
 
 * **GDP Source:** [World Bank](https://data.worldbank.org/indicator/NY.GDP.MKTP.CD) national accounts data, and OECD National Accounts data files.
-
 * **Life expectancy Data Source:** [World Health Organization](http://apps.who.int/gho/data/node.main.688)
 
+## 🛠️ Tech Stack & Libraries
+* Python 3
+* Jupyter Notebook – Analysis environment
+* Pandas – Data processing
+* Matplotlib and Seaborn – Data visualization
 
-## 🛠️ Tech Stack & Skills
-* **Language:** Python 3
-* **Environment:** Jupyter Notebook
-* **Libraries:** `csv` (for data ingestion)
-* **Core Concepts:** Custom function definitions, list comprehensions, control flow (if/else), loops, and data type manipulation.
+## 📈 Notebook Structure
+1. **Introduction** – Project objectives, research questions.
+2. **Data Loading and Inspection** – Load CSV file, handle missing values, data types, clean column names.
+3. **Prepare Data for Analysis** – Ensure appropriate data types, adjust column names for clarity.
+4. **Exploratory Data Analysis** – GDP and Life Expectancy distributions, summary statistics by country, trend analysis, explore relationship between GDP and Life Expectancy.
+5. **Conclusion and Main Findings** – Key findings of the study and conclusion.
+
+
+
 
 ## 📊 Key Findings & Insights
 Based on the analysis of `insurance.csv`, here are the key takeaways:
